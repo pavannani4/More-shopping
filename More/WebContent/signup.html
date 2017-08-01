@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>More Signin</title>
+<style>
+
+  body {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background-color: #eee;
+  
+  }
+  .btn 
+  {
+   outline:0;
+   border:none;
+   border-top:none;
+   border-bottom:none;
+   border-left:none;
+   border-right:none;
+   box-shadow:inset 2px -3px rgba(0,0,0,0.15);
+  }
+  .btn:focus
+  {
+   outline:0;
+   -webkit-outline:0;
+   -moz-outline:0;
+  }
+  .fullscreen_bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('http://cleancanvas.herokuapp.com/img/backgrounds/color-splash.jpg');
+    background-repeat:repeat;
+  }
+  .form-signin {
+    max-width: 280px;
+    padding: 15px;
+    margin: 0 auto;
+      margin-top:50px;
+  }
+  .form-signin .form-signin-heading, .form-signin {
+    margin-bottom: 10px;
+  }
+  .form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-color: #000;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(0,0,0);
+    border-top:1px solid rgba(0,0,0,0.08);
+  }
+  .form-signin-heading {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  }
+
+</style>
+
+
+</head>
+<body align="center">
+
+	<h1>Registration</h1>
+	
+	<div id="fullscreen_bg" class="fullscreen_bg" >
+
+	<div class="container">
+	<form class="form-signin" action="Register" method="post">
+	
+		<input class="form-control" id="name" type="text" autofocus placeholder="Enter the name" required title="Enter the name" autocomplete="off"  name="name"><br>
+		
+		<input class="form-control" id="email" type="email" autofocus placeholder="Enter the email" required title="Enter the email" autocomplete="off"  name="email"><br>
+		
+		<input class="form-control" id="password" type="password" autofocus placeholder="Enter the Password" required title="Enter the Password" autocomplete="off"  name="password"><br>
+		
+		<button	class="btn btn-hero btn-lg" type="submit">Submit</button>
+	</form>
+	
+	</div></div>
+</body>
+</html>
+
+
+ <!-- <link rel="stylesheet" type="text/css" href="style.css">
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+ <script type="text/javascript" src="script.js">
+<!--
+
+//-->
+<!-- </script>
+ 
+<div class="container">
+	<div id="login-box">
+		<div class="logo">
+			<img src="http://lorempixel.com/output/people-q-c-100-100-1.jpg" class="img img-responsive img-circle center-block"/>
+			<h1 class="logo-caption"><span class="tweak">L</span>ogin</h1>
+		</div>/.logo
+		<div class="controls">
+		<form action="Register" method="post">
+			<input type="text" name="name" placeholder="Username" class="form-control" />
+			<input type="email" name="email" placeholder="email" class="form-control"/>
+			<input type="password" name="password" placeholder="Password" class="form-control" />
+			<button type="submit" class="btn btn-default btn-block btn-custom">Register</button>
+		</form>
+		</div>/.controls
+	</div>/#login-box
+</div>/.container
+<div id="particles-js"></div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script> -->
